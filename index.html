@@ -768,8 +768,9 @@
     <script src="./js/wow.min.js"></script>
 
     <script>
-      // wow js
-      new WOW().init();
+      var scroll = new SmoothScroll('a[href*="#"]', {
+        speed: 1000,
+      });
     </script>
     <!--  custom js file  -->
     <script src="./js/main.js"></script>
