@@ -13231,3 +13231,14 @@ textarea.form-control {
 .work-detail h2 {
     font-size: 40px;
 }
+
+.rc-anchor-light.rc-anchor-normal {
+    background: #1f1f1f;
+    color: #fff;
+}
+
+.rc-anchor-light .rc-anchor-logo-text,
+.rc-anchor-light div a:link,
+.rc-anchor-light div a:visited {
+    color: #fff;
+}
