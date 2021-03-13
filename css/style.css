@@ -10946,8 +10946,8 @@ h5,
 .h4,
 .h5 {
     line-height: 1.5;
-    color: rgba(0, 0, 0, .8);
-    font-weight: 400;
+    color: rgba(0, 0, 0);
+    font-weight: 700;
     font-family: lora, serif
 }
 
@@ -13147,8 +13147,8 @@ textarea.form-control {
 }
 
 .work-img .desc span {
-    font-size: 13px;
-    color: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    color: rgba(0, 0, 0);
 }
 
 .work-img .desc h3 {
@@ -13241,4 +13241,12 @@ textarea.form-control {
 .rc-anchor-light div a:link,
 .rc-anchor-light div a:visited {
     color: #fff;
+}
+
+ ::-webkit-scrollbar {
+    width: 20px;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: #fdcb6e;
 }
