@@ -13250,3 +13250,10 @@ textarea.form-control {
  ::-webkit-scrollbar-thumb {
     background: #fdcb6e;
 }
+
+.work-img{
+    background-size: cover;
+}
+.work-img.auto-img{
+    background-size: auto;
+}
