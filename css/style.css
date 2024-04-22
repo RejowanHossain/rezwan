@@ -4679,7 +4679,9 @@ input[type=button].btn-block {
     margin-right: 1rem;
     font-size: 1.25rem;
     line-height: inherit;
-    white-space: nowrap
+    white-space: nowrap;
+    transform: translateY(-80px);
+    /* transition: .2s linear all; */
 }
 
 .navbar-brand:hover,
@@ -11233,7 +11235,9 @@ h5,
     line-height: .1vh;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #fff
+    -webkit-text-stroke-color: #fff;
+    /* opacity: .5; */
+    /* scale: 0; */
 }
 
 .home-wrap .half {
@@ -11586,7 +11590,9 @@ h5,
         margin-top: -70px
     }
 }
-
+/* #scrlTrigr{
+    opacity: 0;
+} */
 .ftco-volunteer .about-text h2 {
     font-weight: 900;
     font-size: 50px;
@@ -11703,7 +11709,7 @@ h5,
 }
 
 .ftco-intro h2 span {
-    background: #fdcb6e
+    background: #fdcb6e;
 }
 
 .services-section {
